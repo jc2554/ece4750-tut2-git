@@ -10,3 +10,7 @@ language: bash
 script:
     - grep blueberry fruit.txt
     - grep apple fruit.txt
+
+notifications:
+  email: false
+
